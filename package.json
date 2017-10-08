@@ -1,0 +1,27 @@
+{
+  "name": "yilan",
+  "version": "1.0.0",
+  "description": "yilan book",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yilan",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cached": "^1.1.1",
+    "gulp-changed": "^3.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-remember": "^0.3.1",
+    "gulp-rev": "^8.0.0",
+    "gulp-rev-collector": "^1.2.2"
+  },
+  "dependencies": {
+    "gulp-clean-css": "^3.7.0",
+    "gulp-uglify": "^3.0.0",
+    "imagemin": "^5.3.1",
+    "imagemin-jpegtran": "^5.0.2",
+    "imagemin-pngquant": "^5.0.1"
+  }
+}
