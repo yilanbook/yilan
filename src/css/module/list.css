@@ -1,0 +1,122 @@
+/* public style */
+.cate-name {
+    color: #526585;
+}
+.wrap-section {
+    width: 894px;
+    float: left;
+    margin-right: 30px;
+}
+.wrap-section-title {
+    border-bottom: 4px solid #bf2C23;
+    font-size: 14px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 36px;
+}
+.section-title {
+    color: #bf2C23;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* public style end */
+
+.hide {
+    border: none;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+.wrap-content {
+    background: #f7f6f2;
+    margin-top: 30px;
+}
+.wrap-content>div:first-child {
+    padding: 30px;
+}
+.channel-list {width: 100%;}
+.channel-list li {
+    border-bottom: 1px solid #e5e5e5;
+    width: calc(100% / 9);
+    flex: 1 0 12%;
+    margin-left: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.channel-list li:first-child {
+    margin: 0;
+}
+.channel-list li>div:first-child {
+    width: 90px;
+    margin: 0 auto;
+}
+.channel-item-cover {
+    width: 90px;
+    height: 120px;
+    display: block;
+}
+.channel-item-cover img {
+    width: 100%;
+    height: 100%;
+}
+.cover-shadow {
+    background: linear-gradient(to bottom, #f7f6f2, #eee, #f7f6f2);
+    width: 106px;
+    height: 8px;
+    margin: 16px auto;
+    transform: rotateX(36deg);
+}
+.cover-shadow ~ p {
+    color: grey;
+    font-size: 12px;
+    line-height: 2.5;
+}
+.wrap-new-book {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    padding: 0 30px 22px;
+}
+.new-book-title {
+    background: #ed4259;
+    color: #fff;
+    width: 36px;
+    height: 43px;
+    flex: 0 0 36px;
+    padding: 5px 9px;
+    position: relative;
+    text-align: center;
+}
+.new-book-title:after {
+    content: " ";
+    border-color: transparent transparent transparent #ed4259;
+    border-style: solid;
+    border-width: 6px;
+    height: 0;
+    margin: auto;
+    position: absolute;
+    right: -12px;
+    top: 0;
+    bottom: 0;
+}
+.new-book-list {
+    width: 1076px;
+    flex: 1 1 1076px;
+}
+.new-book-list ul {flex-wrap: wrap;}
+.new-book-item {
+    width: 29%;
+    flex: 1 1 29%;
+    margin: 0 20px 8px;
+}
+.new-book-item:nth-child(3n) {
+    margin-right: 0;
+}
+.new-book-item a {font-size: 14px;}
+.new-book-item span:last-child {
+    color: #666;
+    font-size: 12px;
+}

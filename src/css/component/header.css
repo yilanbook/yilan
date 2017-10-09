@@ -1,0 +1,33 @@
+.header {
+    background: #f2f2f2;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+.header-left {
+    font-size: 14px;
+    float: left;
+}
+.header-right {
+    font-size: 12px;
+    float: right;
+}
+.header-left span, .header-left a {
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+}
+.header-left span {
+    color: #666666;
+    margin-right: 100px;
+}
+.link-login {
+    color: red;
+    margin-right: 10px;
+}
+.link-login + a {
+    color: #666666;
+}
+.header-right a {
+    margin-left: 10px;
+}

@@ -1,0 +1,121 @@
+.wrap-pushed {
+    width: 1200px;
+    margin: 30px auto;
+}
+.list-pushed {
+    margin-top: 16px;
+}
+.list-pushed li {
+    width: 32.1%;
+    width: calc(96.4% / 3);
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    float: left;
+    margin: 0 0 16px 16px;
+}
+.list-pushed li:nth-child(3n+1) {
+    margin-left: 0;
+}
+.pushed-cover {
+    margin-right: 10px;
+}
+.pushed-cover a {
+    width: 90px;
+    height: 120px;
+    display: block;
+}
+.pushed-cover img {
+    width: 100%;
+    height: 100%;
+}
+.pushed-info {
+    font-size: 14px;
+    max-height: 120px;
+    overflow: hidden;
+}
+.pushed-info a {
+    color: #526585;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.list-hot {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    float: right;
+    padding: 36px 10px 10px;
+    position: relative;
+}
+.block-type {
+    background: #bf2C23;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 3px 20px;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+.top-hot {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+}
+.top-hot-cover {
+    width: 80px;
+    height: 110px;
+    margin-right: 10px;
+    position: relative;
+}
+.top-hot-cover img {
+    width: 100%;
+    height: 100%;
+}
+.top-hot-link {
+    line-height: 36px;
+}
+.top-hot-type, .top-hot-type + p {
+    font-size: 14px;
+}
+.rank-number {
+    font-size: 12px;
+    padding: 0 5px;
+    color: #ffffff;
+    font-weight: bold;
+    height: 16px;
+}
+.one-rank {
+    background: #bf2C23;
+    position: absolute;
+}
+.two-rank {
+    background: #e67225;
+}
+.three-rank {
+    background: #e6bf25;
+}
+.rest-rank {
+    background: #ededed;
+    color: #666;
+}
+.item-hot {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    border-top: 1px solid #e5e5e5;
+}
+.item-hot a {
+    flex: 1 1 60%;
+    margin: 0 10px;
+}
+.item-hot a + span {
+    color: #666666;
+    font-size: 12px;
+}
+.more-hot {
+    color: #666;
+    font-size: 12px;
+    display: block;
+    text-align: right;
+}

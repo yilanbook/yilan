@@ -1,0 +1,30 @@
+html,body,div,h1,h2,h3,h4,h5,h6,p,span,a,button,nav,header,section,article,form,input,textarea,ul,ol,li,sub,sup,i{margin:0;padding:0}
+a{text-decoration:none}
+ul,ol{list-style:none}
+h1,h2,h3,h4,h5,h6 {font-weight: normal;}
+body,div,p,button,input,select,textarea,header,article,footer,nav,i{font-family:"Microsoft YaHei","\5b8b\4f53", Arial, sans-serif}
+i {font-style: normal;}
+mark{background:none;}
+button{cursor:pointer}
+table{border-collapse:collapse;border-spacing:0}
+.clf:after {
+    content: " ";
+    height: 0;
+    clear: both;
+    display: block;
+    visibility: hidden;
+}
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+a {
+    color: #333333;
+}
+.flex-jc-between {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    justify-content: space-between;
+}
+input:focus, button:focus {outline: none;}
